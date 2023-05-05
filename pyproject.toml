@@ -1,0 +1,16 @@
+[tool.poetry]
+authors = ["Ben Lakeland <b.lakeland1998@gmail.com>"]
+description = "Programming on a GPU"
+name = "gpu-programming"
+packages = [{include = "gpu_programming"}]
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyopencl = "^2022.3.1"
+numpy = "^1.24.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
